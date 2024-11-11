@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+<body>
+   <form class="container">
+    <h1 class="login-title">Login</h1>
+
+    <section class="input-box">
+        <input type="text" name="username" placeholder="Username">
+        <i class="fas solid fa-user"></i>
+    </section>
+
+    <section class="input-box">
+        <input type="password" name="password" placeholder="Password">
+        <i class="fas solid fa-lock"></i>
+    </section>
+
+    <section class="remember-forgot-box">
+        <div class="remember-me">
+            <input type="checkbox" name="remember-me" id="remember-me">
+            <label for="remember-me">
+                <h5>Remember me</h5>
+            </label>
+        </div>
+        <a class="forgot-password" href="#">
+            <h5>Forgot password?</h5>
+        </a>
+    </section>
+
+    <button class="login-button" type="submit">
+        Login
+    </button>
+
+    <h5 class="no-account">
+        Don't have an account? 
+        <a href="#"><b>Register</b></a>
+    </h5>
+   </form> 
+</body>
+</html>
